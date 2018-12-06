@@ -1,0 +1,327 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{4236234F-FFC7-49CA-BA84-A7B047DD5001}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>ChrisLandAdmin</RootNamespace>
+    <AssemblyName>ChrisLandAdmin</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.ReportViewer.WinForms, Version=12.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL" />
+    <Reference Include="MySql.Data, Version=6.9.9.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL">
+      <HintPath>..\packages\MySql.Data.6.9.9\lib\net45\MySql.Data.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="SplashScreen, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\SplashScreen.Winforms.1.0.0\lib\SplashScreen.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.DirectoryServices" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AdminUsers.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdminUsers.Designer.cs">
+      <DependentUpon>AdminUsers.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CancelAppointment.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CancelAppointment.Designer.cs">
+      <DependentUpon>CancelAppointment.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ChatBox.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ChatBox.designer.cs">
+      <DependentUpon>ChatBox.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMain.Designer.cs">
+      <DependentUpon>frmMain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GateReports.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>GateReports.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="GateUserReports.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GateUserReports.Designer.cs">
+      <DependentUpon>GateUserReports.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GateUsers.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GateUsers.Designer.cs">
+      <DependentUpon>GateUsers.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LoginForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LoginForm.Designer.cs">
+      <DependentUpon>LoginForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MyVisitorDataset.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>MyVisitorDataset.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RegisterGuardian.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RegisterGuardian.Designer.cs">
+      <DependentUpon>RegisterGuardian.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RescheduleAppointment.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RescheduleAppointment.Designer.cs">
+      <DependentUpon>RescheduleAppointment.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ScheduleAppointment.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ScheduleAppointment.Designer.cs">
+      <DependentUpon>ScheduleAppointment.cs</DependentUpon>
+    </Compile>
+    <Compile Include="visitor_managerDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>visitor_managerDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="visitor_managerDataSet1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>visitor_managerDataSet1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="visitor_managerDataSet21.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>visitor_managerDataSet21.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="visitor_managerDataSet31.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>visitor_managerDataSet31.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="visitor_managerDataSet4.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>visitor_managerDataSet4.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="visitor_managerDataSet5.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>visitor_managerDataSet5.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="VisitReportsLog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VisitReportsLog.Designer.cs">
+      <DependentUpon>VisitReportsLog.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="AdminUsers.resx">
+      <DependentUpon>AdminUsers.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CancelAppointment.resx">
+      <DependentUpon>CancelAppointment.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Final_Reports.rdlc" />
+    <EmbeddedResource Include="ChatBox.resx">
+      <DependentUpon>ChatBox.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMain.resx">
+      <DependentUpon>frmMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GateUserReports.resx">
+      <DependentUpon>GateUserReports.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GateUsers.resx">
+      <DependentUpon>GateUsers.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LoginForm.resx">
+      <DependentUpon>LoginForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="RegisterGuardian.resx">
+      <DependentUpon>RegisterGuardian.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RescheduleAppointment.resx">
+      <DependentUpon>RescheduleAppointment.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ScheduleAppointment.resx">
+      <DependentUpon>ScheduleAppointment.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Visitors_report.rdlc" />
+    <EmbeddedResource Include="VisitReportsLog.resx">
+      <DependentUpon>VisitReportsLog.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="GateReports.xsc">
+      <DependentUpon>GateReports.xsd</DependentUpon>
+    </None>
+    <None Include="GateReports.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>GateReports.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="GateReports.xss">
+      <DependentUpon>GateReports.xsd</DependentUpon>
+    </None>
+    <None Include="MyVisitorDataset.xsc">
+      <DependentUpon>MyVisitorDataset.xsd</DependentUpon>
+    </None>
+    <None Include="MyVisitorDataset.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>MyVisitorDataset.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="MyVisitorDataset.xss">
+      <DependentUpon>MyVisitorDataset.xsd</DependentUpon>
+    </None>
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <None Include="visitor_managerDataSet.xsc">
+      <DependentUpon>visitor_managerDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="visitor_managerDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>visitor_managerDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="visitor_managerDataSet.xss">
+      <DependentUpon>visitor_managerDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="visitor_managerDataSet1.xsc">
+      <DependentUpon>visitor_managerDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="visitor_managerDataSet1.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>visitor_managerDataSet1.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="visitor_managerDataSet1.xss">
+      <DependentUpon>visitor_managerDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="visitor_managerDataSet21.xsc">
+      <DependentUpon>visitor_managerDataSet21.xsd</DependentUpon>
+    </None>
+    <None Include="visitor_managerDataSet21.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>visitor_managerDataSet21.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="visitor_managerDataSet21.xss">
+      <DependentUpon>visitor_managerDataSet21.xsd</DependentUpon>
+    </None>
+    <None Include="visitor_managerDataSet31.xsc">
+      <DependentUpon>visitor_managerDataSet31.xsd</DependentUpon>
+    </None>
+    <None Include="visitor_managerDataSet31.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>visitor_managerDataSet31.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="visitor_managerDataSet31.xss">
+      <DependentUpon>visitor_managerDataSet31.xsd</DependentUpon>
+    </None>
+    <None Include="visitor_managerDataSet4.xsc">
+      <DependentUpon>visitor_managerDataSet4.xsd</DependentUpon>
+    </None>
+    <None Include="visitor_managerDataSet4.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>visitor_managerDataSet4.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="visitor_managerDataSet4.xss">
+      <DependentUpon>visitor_managerDataSet4.xsd</DependentUpon>
+    </None>
+    <None Include="visitor_managerDataSet5.xsc">
+      <DependentUpon>visitor_managerDataSet5.xsd</DependentUpon>
+    </None>
+    <None Include="visitor_managerDataSet5.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>visitor_managerDataSet5.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="visitor_managerDataSet5.xss">
+      <DependentUpon>visitor_managerDataSet5.xsd</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ChatTestNowx.exe" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

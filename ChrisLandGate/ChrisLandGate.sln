@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChrisLandGate", "ChrisLandGate\ChrisLandGate.csproj", "{78365FB8-65DE-44B2-88E3-A68B0B1CC367}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "MyChrisLandGateSetup", "MyChrisLandGateSetup\MyChrisLandGateSetup.vdproj", "{F64DFC6A-93A3-4D79-ACF6-9BA233569648}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "GatePassGateSetupXV", "GatePassGateSetupXV\GatePassGateSetupXV.vdproj", "{99C18523-3CA0-4574-B42A-511904CFC997}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{78365FB8-65DE-44B2-88E3-A68B0B1CC367}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{78365FB8-65DE-44B2-88E3-A68B0B1CC367}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{78365FB8-65DE-44B2-88E3-A68B0B1CC367}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{78365FB8-65DE-44B2-88E3-A68B0B1CC367}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F64DFC6A-93A3-4D79-ACF6-9BA233569648}.Debug|Any CPU.ActiveCfg = Debug
+		{F64DFC6A-93A3-4D79-ACF6-9BA233569648}.Release|Any CPU.ActiveCfg = Release
+		{99C18523-3CA0-4574-B42A-511904CFC997}.Debug|Any CPU.ActiveCfg = Debug
+		{99C18523-3CA0-4574-B42A-511904CFC997}.Release|Any CPU.ActiveCfg = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

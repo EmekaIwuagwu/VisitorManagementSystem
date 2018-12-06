@@ -1,0 +1,74 @@
+c:\users\emi\documents\visual studio 2015\Projects\ChrisLandGate\ChrisLandGate\bin\Debug\ChrisLandGate.exe.config
+c:\users\emi\documents\visual studio 2015\Projects\ChrisLandGate\ChrisLandGate\bin\Debug\ChrisLandGate.exe
+c:\users\emi\documents\visual studio 2015\Projects\ChrisLandGate\ChrisLandGate\bin\Debug\ChrisLandGate.pdb
+c:\users\emi\documents\visual studio 2015\Projects\ChrisLandGate\ChrisLandGate\bin\Debug\SplashScreen.dll
+c:\users\emi\documents\visual studio 2015\Projects\ChrisLandGate\ChrisLandGate\obj\Debug\ChrisLandGate.Properties.Resources.resources
+c:\users\emi\documents\visual studio 2015\Projects\ChrisLandGate\ChrisLandGate\obj\Debug\ChrisLandGate.csproj.GenerateResource.Cache
+c:\users\emi\documents\visual studio 2015\Projects\ChrisLandGate\ChrisLandGate\obj\Debug\ChrisLandGate.exe
+c:\users\emi\documents\visual studio 2015\Projects\ChrisLandGate\ChrisLandGate\obj\Debug\ChrisLandGate.pdb
+c:\users\emi\documents\visual studio 2015\Projects\ChrisLandGate\ChrisLandGate\obj\Debug\ChrisLandGate.frmMain.resources
+c:\users\emi\documents\visual studio 2015\Projects\ChrisLandGate\ChrisLandGate\obj\Debug\ChrisLandGate.Login.resources
+c:\users\emi\documents\visual studio 2015\Projects\ChrisLandGate\ChrisLandGate\obj\Debug\ChrisLandGate.ScheduledAppointments.resources
+c:\users\emi\documents\visual studio 2015\Projects\ChrisLandGate\ChrisLandGate\obj\Debug\ChrisLandGate.UnscheduledAppointments.resources
+c:\users\emi\documents\visual studio 2015\Projects\ChrisLandGate\ChrisLandGate\obj\Debug\ChrisLandGate.VisitingDaysCheck.resources
+c:\users\emi\documents\visual studio 2015\Projects\ChrisLandGate\ChrisLandGate\bin\Debug\MySql.Data.dll
+H:\chrisland_project\ChrisLandGate\ChrisLandGate\bin\Debug\ChrisLandGate.exe.config
+H:\chrisland_project\ChrisLandGate\ChrisLandGate\obj\Debug\ChrisLandGate.exe
+H:\chrisland_project\ChrisLandGate\ChrisLandGate\obj\Debug\ChrisLandGate.pdb
+H:\chrisland_project\ChrisLandGate\ChrisLandGate\bin\Debug\ChrisLandGate.exe
+H:\chrisland_project\ChrisLandGate\ChrisLandGate\bin\Debug\ChrisLandGate.pdb
+H:\chrisland_project\ChrisLandGate\ChrisLandGate\bin\Debug\AForge.Video.DirectShow.dll
+H:\chrisland_project\ChrisLandGate\ChrisLandGate\bin\Debug\AForge.Video.dll
+H:\chrisland_project\ChrisLandGate\ChrisLandGate\bin\Debug\MySql.Data.dll
+H:\chrisland_project\ChrisLandGate\ChrisLandGate\bin\Debug\SplashScreen.dll
+H:\chrisland_project\ChrisLandGate\ChrisLandGate\bin\Debug\AForge.dll
+H:\chrisland_project\ChrisLandGate\ChrisLandGate\bin\Debug\AForge.Video.xml
+H:\chrisland_project\ChrisLandGate\ChrisLandGate\bin\Debug\AForge.Video.DirectShow.xml
+H:\chrisland_project\ChrisLandGate\ChrisLandGate\bin\Debug\AForge.xml
+H:\chrisland_project\ChrisLandGate\ChrisLandGate\obj\Debug\ChrisLandGate.csprojResolveAssemblyReference.cache
+H:\chrisland_project\ChrisLandGate\ChrisLandGate\obj\Debug\ChrisLandGate.Camera.resources
+H:\chrisland_project\ChrisLandGate\ChrisLandGate\obj\Debug\ChrisLandGate.frmMain.resources
+H:\chrisland_project\ChrisLandGate\ChrisLandGate\obj\Debug\ChrisLandGate.Login.resources
+H:\chrisland_project\ChrisLandGate\ChrisLandGate\obj\Debug\ChrisLandGate.Properties.Resources.resources
+H:\chrisland_project\ChrisLandGate\ChrisLandGate\obj\Debug\ChrisLandGate.ScheduledAppointments.resources
+H:\chrisland_project\ChrisLandGate\ChrisLandGate\obj\Debug\ChrisLandGate.Signout.resources
+H:\chrisland_project\ChrisLandGate\ChrisLandGate\obj\Debug\ChrisLandGate.UnscheduledAppointments.resources
+H:\chrisland_project\ChrisLandGate\ChrisLandGate\obj\Debug\ChrisLandGate.VisitingDaysCheck.resources
+H:\chrisland_project\ChrisLandGate\ChrisLandGate\obj\Debug\ChrisLandGate.csproj.GenerateResource.Cache
+C:\Users\Emeka\Desktop\chrisland_project\ChrisLandGate\ChrisLandGate\bin\Debug\ChrisLandGate.exe.config
+C:\Users\Emeka\Desktop\chrisland_project\ChrisLandGate\ChrisLandGate\bin\Debug\ChrisLandGate.exe
+C:\Users\Emeka\Desktop\chrisland_project\ChrisLandGate\ChrisLandGate\bin\Debug\ChrisLandGate.pdb
+C:\Users\Emeka\Desktop\chrisland_project\ChrisLandGate\ChrisLandGate\bin\Debug\MySql.Data.dll
+C:\Users\Emeka\Desktop\chrisland_project\ChrisLandGate\ChrisLandGate\bin\Debug\SplashScreen.dll
+C:\Users\Emeka\Desktop\chrisland_project\ChrisLandGate\ChrisLandGate\obj\Debug\ChrisLandGate.Camera.resources
+C:\Users\Emeka\Desktop\chrisland_project\ChrisLandGate\ChrisLandGate\obj\Debug\ChrisLandGate.frmMain.resources
+C:\Users\Emeka\Desktop\chrisland_project\ChrisLandGate\ChrisLandGate\obj\Debug\ChrisLandGate.Login.resources
+C:\Users\Emeka\Desktop\chrisland_project\ChrisLandGate\ChrisLandGate\obj\Debug\ChrisLandGate.Properties.Resources.resources
+C:\Users\Emeka\Desktop\chrisland_project\ChrisLandGate\ChrisLandGate\obj\Debug\ChrisLandGate.ScheduledAppointments.resources
+C:\Users\Emeka\Desktop\chrisland_project\ChrisLandGate\ChrisLandGate\obj\Debug\ChrisLandGate.Signout.resources
+C:\Users\Emeka\Desktop\chrisland_project\ChrisLandGate\ChrisLandGate\obj\Debug\ChrisLandGate.UnscheduledAppointments.resources
+C:\Users\Emeka\Desktop\chrisland_project\ChrisLandGate\ChrisLandGate\obj\Debug\ChrisLandGate.VisitingDaysCheck.resources
+C:\Users\Emeka\Desktop\chrisland_project\ChrisLandGate\ChrisLandGate\obj\Debug\ChrisLandGate.csproj.GenerateResource.Cache
+C:\Users\Emeka\Desktop\chrisland_project\ChrisLandGate\ChrisLandGate\obj\Debug\ChrisLandGate.exe
+C:\Users\Emeka\Desktop\chrisland_project\ChrisLandGate\ChrisLandGate\obj\Debug\ChrisLandGate.pdb
+C:\Users\Emeka\Desktop\chrisland_project\ChrisLandGate\ChrisLandGate\obj\Debug\ChrisLandGate.csprojResolveAssemblyReference.cache
+C:\Users\Emeka\Desktop\chrisland_project_2\ChrisLandGate\ChrisLandGate\bin\Debug\ChrisLandGate.exe.config
+C:\Users\Emeka\Desktop\chrisland_project_2\ChrisLandGate\ChrisLandGate\bin\Debug\ChrisLandGate.exe
+C:\Users\Emeka\Desktop\chrisland_project_2\ChrisLandGate\ChrisLandGate\bin\Debug\ChrisLandGate.pdb
+C:\Users\Emeka\Desktop\chrisland_project_2\ChrisLandGate\ChrisLandGate\bin\Debug\MySql.Data.dll
+C:\Users\Emeka\Desktop\chrisland_project_2\ChrisLandGate\ChrisLandGate\bin\Debug\SplashScreen.dll
+C:\Users\Emeka\Desktop\chrisland_project_2\ChrisLandGate\ChrisLandGate\obj\Debug\ChrisLandGate.Camera.resources
+C:\Users\Emeka\Desktop\chrisland_project_2\ChrisLandGate\ChrisLandGate\obj\Debug\ChrisLandGate.Form1.resources
+C:\Users\Emeka\Desktop\chrisland_project_2\ChrisLandGate\ChrisLandGate\obj\Debug\ChrisLandGate.frmMain.resources
+C:\Users\Emeka\Desktop\chrisland_project_2\ChrisLandGate\ChrisLandGate\obj\Debug\ChrisLandGate.Login.resources
+C:\Users\Emeka\Desktop\chrisland_project_2\ChrisLandGate\ChrisLandGate\obj\Debug\ChrisLandGate.Properties.Resources.resources
+C:\Users\Emeka\Desktop\chrisland_project_2\ChrisLandGate\ChrisLandGate\obj\Debug\ChrisLandGate.ScheduledAppointments.resources
+C:\Users\Emeka\Desktop\chrisland_project_2\ChrisLandGate\ChrisLandGate\obj\Debug\ChrisLandGate.Signout.resources
+C:\Users\Emeka\Desktop\chrisland_project_2\ChrisLandGate\ChrisLandGate\obj\Debug\ChrisLandGate.UnscheduledAppointments.resources
+C:\Users\Emeka\Desktop\chrisland_project_2\ChrisLandGate\ChrisLandGate\obj\Debug\ChrisLandGate.VisitingDaysCheck.resources
+C:\Users\Emeka\Desktop\chrisland_project_2\ChrisLandGate\ChrisLandGate\obj\Debug\ChrisLandGate.csproj.GenerateResource.Cache
+C:\Users\Emeka\Desktop\chrisland_project_2\ChrisLandGate\ChrisLandGate\obj\Debug\ChrisLandGate.exe
+C:\Users\Emeka\Desktop\chrisland_project_2\ChrisLandGate\ChrisLandGate\obj\Debug\ChrisLandGate.pdb
+F:\chrisland_project_2\ChrisLandGate\ChrisLandGate\bin\Debug\ChrisLandGate.exe.config
+F:\chrisland_project_2\ChrisLandGate\ChrisLandGate\obj\Debug\ChrisLandGate.exe
+F:\chrisland_project_2\ChrisLandGate\ChrisLandGate\obj\Debug\ChrisLandGate.pdb

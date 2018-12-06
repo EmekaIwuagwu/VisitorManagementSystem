@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="visitor_managerDataSet3" targetNamespace="http://tempuri.org/visitor_managerDataSet31.xsd" xmlns:mstns="http://tempuri.org/visitor_managerDataSet31.xsd" xmlns="http://tempuri.org/visitor_managerDataSet31.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="visitor_managerConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="visitor_managerConnectionString (Settings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.ChrisLandAdmin.Properties.Settings.GlobalReference.Default.visitor_managerConnectionString" Provider="MySql.Data.MySqlClient" />
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="staff_namesTableAdapter" GeneratorDataComponentClassName="staff_namesTableAdapter" Name="staff_names" UserDataComponentName="staff_namesTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="visitor_managerConnectionString (Settings)" DbObjectName="visitor_manager.staff_names" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT `names` FROM `staff_names`</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="names" DataSetColumn="names" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+        </Tables>
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="visitor_managerDataSet3" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="True" msprop:Generator_DataSetName="visitor_managerDataSet3" msprop:Generator_UserDSName="visitor_managerDataSet3">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="staff_names" msprop:Generator_TableClassName="staff_namesDataTable" msprop:Generator_TableVarName="tablestaff_names" msprop:Generator_TablePropName="staff_names" msprop:Generator_RowDeletingName="staff_namesRowDeleting" msprop:Generator_RowChangingName="staff_namesRowChanging" msprop:Generator_RowEvHandlerName="staff_namesRowChangeEventHandler" msprop:Generator_RowDeletedName="staff_namesRowDeleted" msprop:Generator_UserTableName="staff_names" msprop:Generator_RowChangedName="staff_namesRowChanged" msprop:Generator_RowEvArgName="staff_namesRowChangeEvent" msprop:Generator_RowClassName="staff_namesRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="names" msprop:Generator_ColumnVarNameInTable="columnnames" msprop:Generator_ColumnPropNameInRow="names" msprop:Generator_ColumnPropNameInTable="namesColumn" msprop:Generator_UserColumnName="names">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="100" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
